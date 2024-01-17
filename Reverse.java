@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Reverse {
 	
 	public static void main(String[] args) throws IOException {
-		FileReader file = new FileReader("C:/Users/PUSHPAK PATEL/eclipse-workspace/JavaProject/src/com/java/code/input.txt");
-		FileWriter oFile = new FileWriter("/Users/PUSHPAK PATEL/eclipse-workspace/JavaProject/src/com/java/code/output.txt");
+		FileReader file = new FileReader("input.txt");
+		FileWriter oFile = new FileWriter("output.txt");
 		
 		try {
 			Scanner sc = new Scanner(file);
